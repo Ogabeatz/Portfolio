@@ -1,0 +1,376 @@
+
+#title{
+    background-color: blue;
+    position: relative;
+}
+
+/*Vectot designs*/
+/* .white-circle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(249, 245, 245);
+    border-radius: 100%;
+    position: absolute;
+    top: 143px;
+    left: 100px; */
+/* } */
+body{
+    margin: 0;
+    text-align: center;
+        font-family: "Merriweather", serif;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.heading-text{
+    text-align: left;
+    padding: 0% 4% 0%;
+}
+
+.subtitle-heading-text{
+    color: white;
+}
+/* Navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+.cv-download{
+    margin-top: 18px;
+}
+
+.title-image{
+    width: 100%;
+}
+
+.row {
+text-align: center;
+padding: 3% 15%s;
+}
+
+
+.card{
+    margin: 10px;
+}
+/* services section */
+.services-feature{
+    padding: 7% 15%;
+}
+
+.ser{
+    color: black;
+    font-size: 1rem;
+    margin-top: 10%;
+}
+
+.sub-title{
+    color: black;
+    font-weight: 900;
+    margin: 3% 0 3% 0;
+    font-size: 2rem;
+}
+.text-services{
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.icon-services{
+    padding: 5%;
+    color: blue;
+}
+
+.icon-services-white{
+    padding: 5%;
+    color: white
+}
+   
+
+
+/* achor tag */
+
+.target-button {
+margin: 0px 0px;
+}
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    }
+
+.fa-solid{
+    padding-right: 0.5em;
+}
+h1{
+    color: #ffffff;
+    font-family: "Montserrat";
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+
+}
+
+h2 {
+ color: #ffffff;
+    font-family: "Montserrat", serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+
+}
+
+h3 {
+    color: #000000;
+    font-family: "Montserrat", serif;
+    font-size: 1.5rem;
+}
+
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: #ffffff;
+    font-family: "Montserrat", serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color: #eaf6f6;
+}
+
+/* .top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+} */
+
+/* .middle-container{
+    padding: 100px 0;
+} */
+
+.bottom-container{
+background-color: blue;
+padding: 50px 0 20px;
+}
+
+.kwame-photo{
+    width: 15%;
+}
+
+.top-cloud{
+    width: 5%;
+    position: absolute;
+    right: 20em;
+    margin: auto;
+}
+.bottom-cloud {
+width: 5%;
+position: absolute;
+left: 20em;
+}
+
+.mountain{
+height:auto;
+width: 25%;    
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.cloud-network{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.phone{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+
+}
+.intro{
+    width: 50%;
+    line-height: 2;
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+  
+/* chatgbp*/
+
+/* Custom CSS to style the col-lg-4 div */
+.icon-container {
+    border: 5px solid #ffffff; /*Adds a border with a color (change color as needed) */
+    border-radius: 15px; /* Rounds the corners (adjust as needed) */
+    padding: 20px; /* Adds space between the content and the border */
+    text-align: center; /* Optional: Centers the text and icon */
+    background-color: #dadada; /* Optional: Adds a background color */
+    height: 100%;
+  }
+
+  .icon-container-2{
+    border: 5px solid #ffffff; /*Adds a border with a color (change color as needed)*/
+    border-radius: 15px; /* Rounds the corners (adjust as needed) */
+    padding: 20px; /* Adds space between the content and the border */
+    text-align: center; /* Optional: Centers the text and icon */
+    background-color: blue; /* Optional: Adds a background color */
+    height: 100%;
+  }
+  
+  .icon-container, .icon-container-2 {
+    margin-bottom: 30px; }/* Adds space between rows */
+
+    @media (max-width: 991px) 
+        .icon-container, .icon-container-2 {
+          margin-bottom: 20px; /* Adjust space for smaller screens */
+        }
+
+ /*about me */
+ .sub-title-2{
+    text-align: left;
+    color: black;
+    font-weight: 900;
+    margin: 3% 0 3% 0;
+    font-size: 2rem;
+
+ }       
+ .paragraph-about{
+    text-align: left;
+ }
+ .about-me-container{
+    margin: 10% 0%;
+ }
+
+ .about-me-icon{
+    float: left;
+    padding-top: 0.5%;
+ }
+
+ .about-me-project{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 3%;
+ }
+
+ .button-about-me{
+    text-align: left;
+    margin-top: 10%;
+ }
+ .cv-download-about{
+    border-radius: 1.3rem;
+    margin-bottom: 3%;
+ }
+
+ #about-me-now{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ /* Make sure this is in your styles.css file */
+.background-container {
+   background-color: lightgray;
+}
+
+.About-me-image{
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+@media (max-width: 1028px) {
+    .About-me-image{
+        text-align: center;
+        margin-left: 15%;
+        position: static;
+    }
+    .icon-container, .icon-container-2{
+        padding: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 5%;
+    }
+    .text-mobile{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .download-button {
+    text-align: left;
+    margin-bottom: 10%;
+    }
+    .background-container {
+        background-color: lightgray;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    
+    /* text-align: center;
+    background-color: rgb(224, 224, 224);
+    color: #fff;
+    margin-top: 5px; */
+}
+
+.testimonial-image{
+    width: 20%;
+    margin: 5px;
+    float: left;
+}
+
+.testimonial-container{
+    text-align: left;
+}
+
+.name-testimonial{
+    padding-top: 5%;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.position-testimonial{
+    margin-left: 1px;
+    color: gray;
+    font-size: small;
+}
+.text-textimonial{
+    color: black;
+    margin-top: 3%;
+}
+
